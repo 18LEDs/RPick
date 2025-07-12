@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Picker</h1>
+    <div id="controls">
+      <label for="mood">Mood/Tag:</label>
+      <select id="mood">
+        <option value="">Any</option>
+      </select>
+      <button id="pickBtn">Pick Restaurant</button>
+    </div>
+    <div id="result"></div>
+    <div id="addForm">
+      <h2>Add Restaurant</h2>
+      <input type="text" id="newName" placeholder="Name">
+      <input type="text" id="newTag" placeholder="Tag (e.g. sushi, cozy)">
+      <input type="text" id="newAddress" placeholder="Address">
+      <textarea id="newReview" placeholder="Review"></textarea>
+      <button id="addBtn">Add</button>
+    </div>
+    <div id="list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
